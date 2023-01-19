@@ -2,6 +2,23 @@
 
 > DEPLOYED URL [weather app](https://weather-live.onrender.com)
 
+## Stack Used
+
+---
+
+<div >
+<img src="https://i.ibb.co/nnsSxg3/Screenshot-2023-01-19-185722.png" alt="Screenshot-2023-01-19-185722" border="0"  height="35px">
+<img src="https://i.ibb.co/0BBT8tG/Screenshot-2023-01-19-185749.png" alt="Screenshot-2023-01-19-185749" border="0" height="32px">
+<img src="https://i.ibb.co/L06yRKx/Screenshot-2023-01-19-185828.png" alt="Screenshot-2023-01-19-185828" border="0" height="50px">
+
+<img src="https://i.ibb.co/Y3HCKq1/Screenshot-2023-01-19-185850.png" alt="Screenshot-2023-01-19-185850" border="0">
+<img src="https://i.ibb.co/Qnd0MMy/Screenshot-2023-01-19-190402.png" alt="Screenshot-2023-01-19-190402" border="0">
+
+<img src="https://i.ibb.co/jGBz0XW/Screenshot-2023-01-19-185447.png" alt="Screenshot-2023-01-19-185447" border="0">
+</div>
+
+---
+
 ## features
 
 ### Search Page
@@ -21,6 +38,15 @@
 
 - uses local storage to save result
 - redux implemented for favourite city list
+
+---
+
+## Screenshot
+
+<img src="https://i.ibb.co/N1hHcZ8/React-App-mobi.png" alt="React-App-mobi" border="0" height=600>
+<img src="https://i.ibb.co/gFH2tBN/React-App-1.png" alt="React-App-1" border="0" >
+<img src="https://i.ibb.co/gvWkxZj/w2.png" alt="w2" border="0">
+<img src="https://i.ibb.co/HX6pGkd/w5.png" alt="w5" border="0">
 
 ---
 
@@ -55,13 +81,6 @@
 
 ---
 
-## Stack Used
-
-<div >
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Redux_Logo.png/640px-Redux_Logo.png" height=25px />
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/640px-React-icon.svg.png" height=25px />
-<img src="https://upload.wikimedia.org/wikipedia/commons/a/a6/TypeScript_Logo.png" height=25px margin=10px>
-</div>
 ---
 
 > BELOW IS GUIDE FOR REACT SETUP
