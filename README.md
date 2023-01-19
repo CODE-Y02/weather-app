@@ -56,7 +56,7 @@
 > [Live URL](https://weather-live.onrender.com)
 
 > For Devs first clone current git repo to your local system
-> Afer that to use API use need api key from [OPEN WEATHER API]()
+> Afer that to use API use need api key from [OPEN WEATHER API](https://openweathermap.org/api)
 > create .env file in project folder and add following
 
         REACT_APP_API_KEY="your api key"
