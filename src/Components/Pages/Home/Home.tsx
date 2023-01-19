@@ -61,7 +61,7 @@ const Home: React.FC = () => {
       // units= Metric: Celsius, Imperial: Fahrenheit.
       if (city) {
         let cityData = await axios.get(
-          `http://api.openweathermap.org/data/2.5/weather?q=${city}&APPID=${process.env.REACT_APP_API_KEY}&units=imperial`
+          `https://api.openweathermap.org/data/2.5/weather?q=${city}&APPID=${process.env.REACT_APP_API_KEY}&units=imperial`
         );
 
         const data = cleanWeatherData(cityData.data);

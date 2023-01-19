@@ -1,5 +1,7 @@
 # Weather Appliction
 
+> DEPLOYED URL [weather app](https://weather-live.onrender.com)
+
 ## features
 
 ### Search Page
@@ -20,10 +22,12 @@
 - uses local storage to save result
 - redux implemented for favourite city list
 
+---
+
 ## Weather app working explained
 
 > If you just want to use application you can use live url
-> [Live URL]()
+> [Live URL](https://weather-live.onrender.com)
 
 > For Devs first clone current git repo to your local system
 > Afer that to use API use need api key from [OPEN WEATHER API]()
@@ -38,6 +42,12 @@
 > To start DEV server
 
         npm start
+
+---
+
+> BELOW IS GUIDE FOR REACT SETUP
+
+---
 
 # Getting Started with Create React App
 
