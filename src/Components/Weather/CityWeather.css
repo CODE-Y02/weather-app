@@ -1,0 +1,21 @@
+.cityWeather {
+  display: flex !important;
+  margin: 0.5rem 0;
+}
+
+.weather {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.weather > img {
+  object-fit: contain;
+  width: 50%;
+  max-width: 255px;
+  min-width: 20px;
+}
+.weather_desc {
+  font-size: larger;
+  font-weight: 500;
+}
