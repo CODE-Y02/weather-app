@@ -53,3 +53,16 @@
   width: max-content;
   margin: 0.5rem;
 }
+
+.no_weather {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+  margin: 1rem auto auto auto;
+}
+
+.no_weather > img {
+  width: 50%;
+}

@@ -43,6 +43,25 @@
 
         npm start
 
+### Folder structure Explained
+
+- src folder contains everything
+- all components lies in Components folder
+- Components/Pages --> contains components that acts as page
+
+- Components/Weather folder contains two component --> CityWeather and InfoIcon
+- CityWeather is used to display weather info in card format
+- InfoIcon contains meta info and actual icon
+
+---
+
+## Stack Used
+
+<div >
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Redux_Logo.png/640px-Redux_Logo.png" height=25px />
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/640px-React-icon.svg.png" height=25px />
+<img src="https://upload.wikimedia.org/wikipedia/commons/a/a6/TypeScript_Logo.png" height=25px margin=10px>
+</div>
 ---
 
 > BELOW IS GUIDE FOR REACT SETUP

@@ -3,7 +3,7 @@ import "./Home.css";
 
 import { Button, Input, Tooltip } from "antd";
 import { HeartTwoTone } from "@ant-design/icons";
-
+import weatherIcon from "../../../Icons/clouds.gif";
 import axios from "axios";
 import CityWeather from "../../Weather/CityWeather";
 
@@ -143,6 +143,13 @@ const Home: React.FC = () => {
               icon={<HeartTwoTone twoToneColor="#eb2f96" />}
             />
           </Tooltip>
+        </div>
+      )}
+
+      {!weatherData && (
+        <div className="no_weather">
+          <h2>Get the current weather Info </h2>
+          <img src={weatherIcon} alt="weather-icon" />
         </div>
       )}
     </div>
