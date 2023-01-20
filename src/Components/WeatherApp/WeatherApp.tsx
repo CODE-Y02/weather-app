@@ -10,7 +10,7 @@ const WeatherApp: React.FC = () => {
     <div className="weather_app">
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/favoirite" element={<Favourite />} />
+        <Route path="/favourite" element={<Favourite />} />
       </Routes>
     </div>
   );
