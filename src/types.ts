@@ -23,30 +23,9 @@ export interface CityWeatherPropType extends weatherDataType {
   heading?: string | undefined;
 }
 
-// export interface CityWeatherPropType {
-//   icon?: String | string | undefined;
-//   City?: String | string | undefined;
-//   Country?: String | string | undefined;
-//   temperature?: {
-//     curr: number | string | undefined;
-//     avg: number | string | undefined;
-//     max: number | string | undefined;
-//     min: number | string | undefined;
-//   };
-//   weather?: string | undefined;
-
-//   pressure?: number | undefined;
-//   humidity?: number | undefined;
-
-//   sunrise?: number | string | undefined;
-//   sunset?: number | string | undefined;
-//   displayRow?: boolean;
-// }
-
 export interface InfoIconProps {
   title?: string;
   value?: string | number | undefined;
   unit?: string | number | undefined;
   icon?: string | undefined;
-  // datetime?: string | undefined;
 }

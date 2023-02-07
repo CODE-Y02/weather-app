@@ -11,7 +11,6 @@ function formatDate(
 
 export const cleanWeatherData = (weatherData: any) => {
   const {
-    // coord: { lon, lat },
     main: {
       temp,
       temp_min,

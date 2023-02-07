@@ -8,7 +8,6 @@ import WeatherApp from "./Components/WeatherApp/WeatherApp";
 
 const App: FC = () => (
   <div className="app">
-    {/* <Button type="primary">Button</Button> */}
     <Header />
     <WeatherApp />
   </div>

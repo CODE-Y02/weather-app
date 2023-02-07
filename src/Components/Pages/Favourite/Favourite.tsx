@@ -12,19 +12,14 @@ import { DeleteOutlined } from "@ant-design/icons";
 import "./Favourite.css";
 
 const Favourite: React.FC = () => {
-  // let favList = useSelector((state: any) => state.fav.value);
   const dispach = useDispatch();
 
   const [favList, setFavList] = useState([]);
   const list = useSelector((state: any) => state.fav.value);
 
   const getFavList = () => {
-    console.log(list);
     if (!list.length || !list) {
-      //get it from local
       let oldList = getAllFavInLocal();
-
-      // console.log(oldList);
 
       setFavList(oldList);
 
@@ -44,9 +39,7 @@ const Favourite: React.FC = () => {
     cityId: string | number | undefined
   ) => {
     e.preventDefault();
-    //
 
-    console.log(cityId);
     if (!cityId) return;
 
     // removeFrom localStorage

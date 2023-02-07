@@ -4,21 +4,24 @@ import "./Home.css";
 import { Button, Input, Tooltip } from "antd";
 import { HeartTwoTone } from "@ant-design/icons";
 import weatherIcon from "../../../Icons/clouds.gif";
-import axios from "axios";
+
 import CityWeather from "../../Weather/CityWeather";
+
+import axios from "axios";
 
 import {
   cleanWeatherData,
   getCityDataFromLocal,
   setCityDataInLocal,
 } from "../../../services/weatherApiServices";
-import { weatherDataType } from "../../../types";
-import { useDispatch, useSelector } from "react-redux/es/exports";
 
 import {
   addCityToFavInLocal,
   getAllFavInLocal,
 } from "../../../services/favouriteServices";
+
+import { weatherDataType } from "../../../types";
+import { useDispatch, useSelector } from "react-redux/es/exports";
 
 const { Search } = Input;
 
@@ -69,28 +72,25 @@ const Home: React.FC = () => {
         setCityDataInLocal(data);
         setWeatherData(data);
 
-        // console.log("I run", a);
-        // console.log(data);
-
         return true;
       }
     } catch (error) {
-      console.log(error);
+      console.error(error);
       return false;
     }
   };
 
   useEffect(() => {
-    const a = async () => {
+    const getWeather = async () => {
       const success = await featchCityWeather(enteredCity);
-      // console.log("suss ", success);
+
       if (!success) {
         const cityData = getCityDataFromLocal();
-        // console.log(cityData);
+
         setWeatherData(cityData);
       }
     };
-    a();
+    getWeather();
   }, [enteredCity]);
 
   return (
@@ -125,12 +125,7 @@ const Home: React.FC = () => {
               temp_max={weatherData.temp_max ? weatherData.temp_max : ""}
             />
 
-            <CityWeather
-              heading={"Humidity"}
-              humidity={weatherData.humidity}
-
-              // weather={weatherData.climate}
-            />
+            <CityWeather heading={"Humidity"} humidity={weatherData.humidity} />
           </div>
 
           <Tooltip title="Add To Fav">

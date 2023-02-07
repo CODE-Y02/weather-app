@@ -29,7 +29,6 @@ const CityWeather = (props: CityWeatherPropType) => {
             )
           }
           title={<h2>{props.city}</h2>}
-          // description={props.weather}
         />
         {props.climate && (
           <div className="weather">
@@ -41,7 +40,7 @@ const CityWeather = (props: CityWeatherPropType) => {
           </div>
         )}
         <Card>
-          {/* temp */}
+          {/* temp is temperature */}
           {props.temp && (
             <InfoIcon
               title="current temp"

@@ -13,8 +13,6 @@ export const favReducer = createReducer(initialState, {
   addToFav: (state, action) => {
     // if already exist then do nothing
 
-    // console.log(action.payload);
-
     state.value = [action.payload, ...state.value];
   },
 
